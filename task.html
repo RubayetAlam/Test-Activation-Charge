@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="task.css" />
+    <title>Test Activation Charge</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="charge">
+      <span class="textCharge">Test Activation Charge</span>
+    </div>
+    <!-- Section 1 -->
+    <div class="section_1">
+      <div class="sub_1">
+        <span class="sub_1_text"
+          >Merchant Fee Type N.B CAT-1 Configuration will copy to all other Card
+          Categories</span
+        >
+      </div>
+      <div class="sub_2">
+        <div>
+          <input
+            type="radio"
+            name="rate"
+            id="semi-rate"
+            value="semi-rate"
+            checked="checked"
+          />
+          <label for="semi-rate"
+            ><span class="radio_text">Semi-Blended Rate</span> &nbsp;
+            <img src="images/download (1).png" class="col"
+          /></label>
+
+          <input
+            type="radio"
+            name="rate"
+            id="semi-rate(b)"
+            value="semi-rate(b)"
+          />
+          <label for="semi-rate(b)"
+            ><span class="radio_text">Semi-Blended Rate(b)</span> &nbsp;
+            <img src="images/download (1).png" class="col"
+          /></label>
+
+          <input type="radio" name="rate" id="ic" value="ic" />
+          <label for="ic"
+            ><span class="radio_text">IC++</span> &nbsp;
+            <img src="images/download (1).png" class="col"
+          /></label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="rate"
+            id="semi-rate(a)"
+            value="semi-rate(a)"
+          />
+          <label for="semi-rate(a)"
+            ><span class="radio_text">Semi-Blended Rate(a)</span> &nbsp;
+            <img src="images/download (1).png" class="col"
+          /></label>
+          <input
+            type="radio"
+            name="rate"
+            id="blended-rate"
+            value="blended-rate"
+          />
+          <label for="blended-rate"
+            ><span class="radio_text">Blended Rate</span> &nbsp;
+            <img src="images/download (1).png" class="col"
+          /></label>
+
+          <input type="checkbox" name="approved" id="approved" />
+          <label for="approved" id="checkbox_text"
+            >Provisioning Team Approved this</label
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Section 2 -->
+    <div class="section_2">
+      <!-- section 2 left -->
+      <div class="left_div_container">
+        <div class="item1">
+          <span
+            >ISO’s Residual Income Share-Ratio between GMS and ISO for CAT-1.
+            Once the Provisioning Team fills-up CAT-1 Q-5, then the Q5 on CAT-2,
+            3, 4 and 5 will automatically fill-up.</span
+          >
+        </div>
+
+        <div class="item2">
+          <span
+            >ISO’s expected Share-Ratio between GMS and ISO deriving from
+            IMO</span
+          >
+        </div>
+        <div class="item3_left">
+          <div>
+            <span class="text_design" style="text-align: center">ISO Share</span
+            ><br />
+            <div class="input_field" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+            </div>
+          </div>
+        </div>
+        <div class="item3_right">
+          <div>
+            <span class="text_design" style="text-align: center">GMS Share</span
+            ><br />
+            <div class="input_field" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 2 right -->
+      <div class="right_div_container">
+        <div class="left_item1">
+          <span
+            >Provisioning Team’s Approved Share-Ratio between GMS and ISO For
+            this Merchant
+          </span>
+        </div>
+        <div class="right_item2">
+          <div class="left_sub_right_item2">
+            <span class="text_design" style="text-align: center"
+              >ISO Share</span
+            >
+            <div class="input_field" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+            </div>
+          </div>
+
+          <div class="right_sub_right_item2">
+            <span class="text_design" style="text-align: center"
+              >GMS Share</span
+            >
+            <div class="input_field" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="section_3">
+      <div class="section_3_topLeft">
+        <div class="aside r1c1">
+          <span
+            class="font-size: 20px; font-weight: 700; line-height: 24.2px; text-align: left; color: #FF0101; text-decoration: underline;"
+            >ISO's CAT-1 Buy Rate:</span
+          >
+        </div>
+
+        <div class="r1c2">
+          <span
+            style="
+              font-weight: 700;
+              font-size: 17px;
+              line-height: 20.57px;
+              color: #001aff;
+            "
+            >CAT-1(CP):</span
+          ><br />
+          <span
+            style="
+              font-weight: 500;
+              font-size: 17px;
+              line-height: 20.57px;
+              color: #001aff;
+            "
+            >Transaction Buy-Rate</span
+          >
+        </div>
+      </div>
+
+      <div class="section_3_topRight">
+        <div class="r2c2">
+          <span
+            style="
+              font-family: Inter;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 16.94px;
+              text-align: center;
+              color: #000000;
+            "
+            >ISO’s Buy Rate from GMS deriving from IMO.</span
+          >
+        </div>
+
+        <div class="r1c3">
+          <span
+            style="
+              font-family: Inter;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 16.94px;
+              text-align: center;
+              color: #000000;
+            "
+            >GMS pre-fixed Buy-Rate to a Merchant that an ISO Shouldn’t go
+            below. This is Auto-filled by our System which is Determined By MCC
+            and Merchant’s Turnover</span
+          >
+        </div>
+
+        <div
+          class="r2c4"
+          style="
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 16.94px;
+            text-align: center;
+            color: #000000;
+          "
+        >
+          <span>Merchant’s Buy-Rate derived from Application Form</span>
+        </div>
+
+        <div class="r1c5">
+          <span
+            style="
+              font-family: Inter;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 16.94px;
+              text-align: center;
+              color: #ff0101;
+            "
+            >N.B. This is for information purpose only for the PMP.
+          </span>
+          <span
+            style="
+              font-family: Inter;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 16.94px;
+              text-align: center;
+              color: #ff0101;
+            "
+            ;
+            >Once the Merchant is charged by a percentage against a TV, the fee
+            that GMS will charge the Merchant should be Rounded Up to the
+            nearest pence.</span
+          >
+          <span
+            style="
+              font-family: Inter;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 16.94px;
+              text-align: center;
+              color: #001aff;
+            "
+            >However, for the visual of the ISO, the Fee that GMS will charge
+            the Merchant will be Rounded Down to the nearest Pence. It should be
+            mentioned in the ISO’s Ts & Cs</span
+          >
+          <span
+            style="
+              font-family: Inter;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 16.94px;
+              text-align: center;
+            "
+            >Provisioning Team’s Approved Buy-Rate for this Merchant.</span
+          >
+        </div>
+
+        <div class="input_field r3c2" style="padding-top: 6px">
+          <input type="text" class="input_box" />
+          <span class="per_box">%</span>
+        </div>
+
+        <div class="input_field r3c3" style="padding-top: 6px">
+          <input type="text" class="input_box" />
+          <span class="per_box">%</span>
+        </div>
+
+        <div class="input_field r3c4" style="padding-top: 6px">
+          <input type="text" class="input_box" />
+          <span class="per_box">%</span>
+        </div>
+
+        <div class="input_field r3c5" style="padding-top: 6px">
+          <input type="text" class="input_box" />
+          <span class="per_box">%</span>
+          <input type="checkbox" />
+        </div>
+      </div>
+
+      <div class="section_3_bottom">
+        <div class="r4c5">
+          <span
+            style="
+              font-family: Inter;
+              font-size: 17px;
+              font-weight: 700;
+              line-height: 20.57px;
+              text-align: left;
+              color: #001aff;
+            "
+            >CAT-1 (MOTO and CNP):</span
+          ><br />
+          <span
+            style="
+              font-family: Inter;
+              font-size: 17px;
+              font-weight: 500;
+              line-height: 20.57px;
+              text-align: left;
+              color: #001aff;
+            "
+            >MOTO and CNP Fee is an additional charge which will be levied to
+            the Merchant on top of their CP Buy-Rate.</span
+          >
+        </div>
+
+        <div class="r5c1">
+          <span
+            class="font-size: 14px; font-weight: 700; line-height: 16.94px; text-align: center;"
+            >Additional MOTO & CNP Rate</span
+          >
+        </div>
+
+        <div class="input_field r5c2" style="padding-top: 6px">
+          <input type="text" class="input_box" />
+          <span class="per_box">%</span>
+        </div>
+
+        <div class="input_field r5c3" style="padding-top: 6px">
+          <input type="text" class="input_box" />
+          <span class="per_box">%</span>
+        </div>
+
+        <div class="input_field r5c4" style="padding-top: 6px">
+          <input type="text" class="input_box" />
+          <span class="per_box">%</span>
+        </div>
+
+        <div class="input_field r5c5" style="padding-top: 6px">
+          <input type="text" class="input_box" />
+          <span class="per_box">%</span>
+          <input type="checkbox" />
+        </div>
+
+        <div class="r6c2">
+          <span>Rounding Up Swith</span>
+          <span>By Default Rounding up to the nearest pence</span>
+        </div>
+
+        <div class="r6c5">
+          <span>Switch this Off for NOT Rounding up</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 4 -->
+    <div class="section_4">
+      <div class="team_part">
+        <div class="box_design" style="margin-top: 23px">
+          <span
+            style="
+              font-family: Inter;
+              font-size: 17px;
+              font-weight: 700;
+              line-height: 20.57px;
+              text-align: left;
+              color: #001aff;
+            "
+            >Processor’s Mark-Up: </span
+          ><br />
+          <span
+            style="
+              font-family: Inter;
+              font-size: 17px;
+              font-weight: 500;
+              line-height: 20.57px;
+              text-align: left;
+              color: #001aff;
+            "
+            >N.B. Once the Provisioning Team fills up CAT-1 Q-7, then CAT-2, 3,
+            4 and 5 will automatically fill up for Q-7 which relates to
+            Processor’s Mark-Up:
+          </span>
+        </div>
+        <div class="box_design" style="margin-top: 14px">
+          <span
+            style="
+              font-family: Inter;
+              font-size: 17px;
+              font-weight: 700;
+              line-height: 20.57px;
+              text-align: left;
+              color: #001aff;
+            "
+          >
+            Message for the Provisioning Team: </span
+          ><br />
+          <span
+            style="
+              font-family: Inter;
+              font-size: 17px;
+              font-weight: 500;
+              line-height: 20.57px;
+              text-align: left;
+              color: #001aff;
+            "
+          >
+            N.B. : The Provisioner must be aware that there are
+            <b>Three Options</b>. A Merchant can only have One Option available
+            to them. So, please activate appropriate Option by ticking the
+            correct Box. Once you have chosen an option, the other Options will
+            become inactive.</span
+          ><br />
+          <span
+            style="
+              font-family: Inter;
+              font-size: 17px;
+              font-weight: 500;
+              line-height: 20.57px;
+              text-align: left;
+              color: #001aff;
+            "
+            ><b>If Option Three</b> as the Processor’s Additional Mark-Up is
+            selected, then Both Options such as “Option One” and “Option Two”
+            will be deactivated at once.
+          </span>
+        </div>
+      </div>
+      <!-- option one -->
+      <div class="Oone">
+        <span
+          style="
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21.78px;
+            text-align: left;
+            text-decoration: underline;
+            padding-left: 8px;
+            padding-top: 8px;
+          "
+          >Option One</span
+        >
+        &nbsp;
+        <span style="background-color: #000000; padding: 4px; color: #ffffff"
+          >Activate</span
+        >
+        &nbsp; <input type="checkbox" />
+
+        <div class="sub_Oone">
+          <div>
+            <span>Pre-fixed Processor's mark-up for CP Transactions</span><br />
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+            </div>
+          </div>
+
+          <div>
+            <span>Pre-fixed Processor’s mark-up for MOTO Transactions </span
+            ><br />
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+            </div>
+          </div>
+
+          <div>
+            <span>Pre-fixed Processor’s mark-up for CNP Transactions </span
+            ><br />
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="sub_Oone"
+          style="
+            background-color: #ffb6b6;
+            width: 528px;
+            height: 157px;
+            gap: 0px;
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+          "
+        >
+          <div>
+            <span
+              >Provisioning Team’s approved CP Mark-up for the Processor</span
+            ><br />
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+              <input type="checkbox" />
+            </div>
+          </div>
+
+          <div>
+            <span
+              >Provisioning Team’s approved MOTO Mark-up for the Processor</span
+            ><br />
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+
+              <input type="checkbox" />
+            </div>
+          </div>
+
+          <div>
+            <span
+              >Provisioning Team’s approved CNP Mark-up for the Processor</span
+            ><br />
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+
+              <input type="checkbox" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Option Two -->
+      <div
+        class="Otwo"
+        style="
+          width: 218px;
+          height: 316px;
+          gap: 0px;
+          opacity: 0px;
+          padding-top: 8px;
+          margin-top: 20px;
+        "
+      >
+        <span
+          style="
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21.78px;
+            text-align: left;
+            text-decoration: underline;
+            padding-left: 8px;
+            padding-top: 8px;
+          "
+          >Option Two</span
+        >
+        <span style="background-color: #000000; padding: 4px; color: #ffffff"
+          >Activate</span
+        ><input type="checkbox" />
+
+        <div class="sub_Otwo">
+          <div>
+            <div
+              style="
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 16px;
+                padding-bottom: 12px;
+              "
+            >
+              Processor’s Combined Mark-up on both CP and CNP.
+            </div>
+            <div class="input_field r3c2" style="padding-left: 18px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+            </div>
+          </div>
+
+          <div
+            style="
+              background-color: #ffb6b6;
+              width: 218px;
+              height: 156px;
+              gap: 0px;
+              border: 1px 0px 0px 0px;
+              opacity: 0px;
+              padding-top: 12px;
+            "
+          >
+            <div style="padding-left: 8px; padding-right: 8px" class="sub_Otwo">
+              Provisioning Team’s approved Combined Mark-up on both CP and CNP
+              for the Processor
+            </div>
+            <div
+              class="input_field r3c2"
+              style="padding-top: 6px; padding-left: 18px"
+            >
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+              <input type="checkbox" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Option Three -->
+      <div class="Othree">
+        <span
+          style="
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21.78px;
+            text-align: left;
+            text-decoration: underline;
+            padding-left: 8px;
+            padding-top: 8px;
+          "
+          >Option Three</span
+        >
+        &nbsp;
+        <span style="background-color: #000000; padding: 4px; color: #ffffff"
+          >Activate</span
+        >
+        &nbsp;<input type="checkbox" />
+        <span
+          style="
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 16.94px;
+            text-align: center;
+            color: #ff0000;
+            text-decoration: underline;
+            text-align: center;
+          "
+          >Our Processor has expressed that Option Three will be applicable for
+          Money Transfer Businesses.</span
+        >
+        <div class="sub_Othree">
+          <div>
+            <span>Pre-fixed Processor’s CP Mark-up </span>
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+            </div>
+          </div>
+
+          <div>
+            <span>Pre-fixed Processor’s mark-up for MOTO Transactions </span>
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+            </div>
+          </div>
+
+          <div>
+            <span>Pre-fixed Processor’s mark-up for CNP Transactions </span>
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+            </div>
+          </div>
+
+          <div>
+            <span
+              >Processor’s Additional Mark-up on all CP, MOTO and CNP
+              Transactions</span
+            >
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="sub_Othree"
+          style="
+            width: 756px;
+            height: 182px;
+            gap: 0px;
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+            background-color: #ffb6b6;
+          "
+        >
+          <div>
+            <span
+              >Provisioning Team’s approved CP Mark-up for the Processor</span
+            >
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span> <input type="checkbox" />
+            </div>
+          </div>
+
+          <div>
+            <span
+              >Provisioning Team’s approved MOTO Mark-up for the Processor</span
+            >
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span> <input type="checkbox" />
+            </div>
+          </div>
+
+          <div>
+            <span
+              >Provisioning Team’s approved CNP Mark-up for the Processor</span
+            >
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span> <input type="checkbox" />
+            </div>
+          </div>
+
+          <div>
+            <span
+              >Provisioning Team’s approved Additional Mark-up on all CP, MOTO
+              and CNP Transactions for the Processor</span
+            ><br />
+            <div class="input_field r3c2" style="padding-top: 6px">
+              <input type="text" class="input_box" />
+              <span class="per_box">%</span> <input type="checkbox" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
